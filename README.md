@@ -1,4 +1,4 @@
-## 1. How to run the code?
+### 1. How to run the code?
    #### Connect to GPU and run the sections in order:
    	Install required libraries
 	
@@ -12,12 +12,12 @@
    1. Current version of notebook runs for Beans dataset. For CIFAR10 dataset, uncomment and comment codes as indicated in the notebook.  
    2. When prompted login using weights and biases account to store all results/graphs.   
    3. If not required, comment out **report_to=wandb** parameter in the args variable for the Trainer (hugging face Trainer) (Comment code as indicated in the notebook)
-   ### Required additional libraries
+   #### Required additional libraries
 	+ pip install transformers
 	+ pip install datasets
 	+ pip install wandb
 
-## 2. Codes used
+### 2. Codes used
 
   #### (a) Repositories used 
 	
@@ -51,7 +51,7 @@
 		- Predictions on the test dataset: Resizer_ViT
 		- Visualize results
 		- Visualize learnable resizer output
-## 3. Datasets used
+### 3. Datasets used
 
 	a) CIFAR10 dataset (1k images)
 		Original dataset: 50k images for training, 10k for testing, 10 classes
