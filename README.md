@@ -66,7 +66,8 @@
 			- See Import datasets section of attached ipynb notebook
 ### 4. Presentation video
 
-[Here](https://youtu.be/WLj-Kjk-TYk) is the link to my presentation of this project.
+
+[Here](https://youtu.be/WLj-Kjk-TYk) is the video link to my presentation of this project.
 
 ### 5. References
 
