@@ -64,6 +64,11 @@
 
 	Both datasets were available in hugging face package.
 			- See Import datasets section of attached ipynb notebook
+### 4. References
 
+[1] Dosovitskiy, Alexey, et al. "An image is worth 16x16 words: Transformers for image recognition at scale." arXiv preprint arXiv:2010.11929 (2020). [[paper]](https://arxiv.org/pdf/2010.11929.pdf)
+
+[2] Talebi, Hossein, and Peyman Milanfar. "Learning to resize images for computer vision tasks." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021. [[paper]](https://arxiv.org/pdf/2103.09950.pdf)
+	
 **Varun Machhale Kumar  
 Purdue University**
