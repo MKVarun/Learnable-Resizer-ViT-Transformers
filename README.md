@@ -1,19 +1,18 @@
-1. How to run the code?
-
-   # Simply connect to GPU and run the sections in order:
-   		* Install required libraries
-		* Import dataset: CIFAR10 or Beans dataset
-		* Either run cells from 'ViT Model' or 'Learnable resizing network + ViT' sections
- 		* Download the checkpoints (if required)
-		** Current Version of notebook runs for Beans dataset. For CIFAR10 dataset, uncomment and comment codes as indicated in the
-		** notebook
-   # When prompted login using weights and biases account to store all results/graphs. If not required, comment out report_to=wandb parameter in the args 	variable for the Trainer (hugging face Trainer) (Comment code as indicated in the notebook)
-   # Additional required libraries are (included in code):
+## 1. How to run the code?
+   ### Simply connect to GPU and run the sections in order:
+   	Install required libraries
+	Import dataset: CIFAR10 or Beans dataset
+	Either run cells from 'ViT Model' or 'Learnable resizing network + ViT' sections
+ 	Download the checkpoints (if required)
+	
+	Current Version of notebook runs for Beans dataset. For CIFAR10 dataset, uncomment and comment codes as indicated in the notebook
+   When prompted login using weights and biases account to store all results/graphs. If not required, comment out report_to=wandb parameter in the args 	variable for the Trainer (hugging face Trainer) (Comment code as indicated in the notebook)
+   ### Additional required libraries are (included in code):
 	+ pip install transformers
 	+ pip install datasets
 	+ pip install wandb
 
-2. Codes used:
+## 2. Codes used:
 
   (a) Repositories used (also included in the notebook): 
 	
@@ -51,7 +50,7 @@
 		** Predictions on the test dataset: Resizer_ViT
 		** Visualize results
 		** Visualize learnable resizer output
-3. Datasets used:
+## 3. Datasets used:
 
 	a) CIFAR10 dataset (1k images)
 		Original dataset: 50k images for training, 10k for testing, 10 classes
