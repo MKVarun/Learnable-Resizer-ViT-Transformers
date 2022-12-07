@@ -64,7 +64,11 @@
 
 	Both datasets were available in hugging face package.
 			- See Import datasets section of attached ipynb notebook
-### 4. References
+### 4. Presentation video
+
+[Here](https://youtu.be/WLj-Kjk-TYk) is the link to my presentation of this project.
+
+### 5. References
 
 [1] Dosovitskiy, Alexey, et al. "An image is worth 16x16 words: Transformers for image recognition at scale." arXiv preprint arXiv:2010.11929 (2020). [[paper]](https://arxiv.org/pdf/2010.11929.pdf)
 
