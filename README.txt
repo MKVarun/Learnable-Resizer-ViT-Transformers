@@ -1,5 +1,3 @@
-HEY README!
-
 1. How to run the code?
 
    # Simply connect to GPU and run the sections in order:
@@ -9,8 +7,8 @@ HEY README!
  		* Download the checkpoints (if required)
 		** Current Version of notebook runs for Beans dataset. For CIFAR10 dataset, uncomment and comment codes as indicated in the
 		** notebook
-   # When prompted login using weights and biases account to store all results/graphs. If not required, comment out report_to=wandb 		parameter in the args variable for the Trainer (hugging face Trainer) (Comment 	code as indicated in the notebook)
-  # Additional required libraries are (included in code):
+   # When prompted login using weights and biases account to store all results/graphs. If not required, comment out report_to=wandb parameter in the args 	variable for the Trainer (hugging face Trainer) (Comment code as indicated in the notebook)
+   # Additional required libraries are (included in code):
 	+ pip install transformers
 	+ pip install datasets
 	+ pip install wandb
