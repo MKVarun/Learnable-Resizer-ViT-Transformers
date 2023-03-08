@@ -1,4 +1,4 @@
-# 1. How to run the code?
+## 1. How to run the code?
  ### Connect to GPU and run the sections in order:
    	Install required libraries
 	
@@ -17,7 +17,7 @@
 	+ pip install datasets
 	+ pip install wandb
 
-# 2. Codes used
+## 2. Codes used
 
   ### (a) Repositories used 
 	
@@ -51,7 +51,7 @@
 		- Predictions on the test dataset: Resizer_ViT
 		- Visualize results
 		- Visualize learnable resizer output
-# 3. Datasets used
+## 3. Datasets used
 
 	a) CIFAR10 dataset (1k images)
 		Original dataset: 50k images for training, 10k for testing, 10 classes
@@ -64,12 +64,12 @@
 
 	Both datasets were available in hugging face package.
 			- See Import datasets section of attached ipynb notebook
-# 4. Presentation video
+## 4. Presentation video
 
 
 [Here](https://youtu.be/WLj-Kjk-TYk) is the video link to my presentation of this project.
 
-# 5. References
+## 5. References
 
 [1] Dosovitskiy, Alexey, et al. "An image is worth 16x16 words: Transformers for image recognition at scale." arXiv preprint arXiv:2010.11929 (2020). [[paper]](https://arxiv.org/pdf/2010.11929.pdf)
 
